@@ -1,0 +1,2 @@
+param_server:pub_and_sub:ser_and_cli:turtle_control
+-DCATKIN_DEVEL_PREFIX=/home/wenkaicao/wenkaicao/ros_learning/devel -DCMAKE_INSTALL_PREFIX=/home/wenkaicao/wenkaicao/ros_learning/install -G Unix Makefiles

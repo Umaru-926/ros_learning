@@ -1,0 +1,8 @@
+prefix=/home/wenkaicao/wenkaicao/ros_learning/devel
+
+Name: pub_and_sub
+Description: Description of pub_and_sub
+Version: 0.0.0
+Cflags: -I/home/wenkaicao/wenkaicao/ros_learning/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

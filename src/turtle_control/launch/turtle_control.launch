@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle"/>
+    <node pkg="turtle_control" type="turtle_control" name="turtle_control"/>
+    <node pkg="turtle_control" type="turtle_pose.py" name="turtle_pose" output="screen"/>
+</launch>

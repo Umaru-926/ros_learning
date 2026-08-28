@@ -9,7 +9,8 @@
         "/opt/ros/noetic/include/**",
         "/home/wenkaicao/wenkaicao/ros_study_ws/src/helloworld/include/**",
         "/usr/include/**",
-        "/home/wenkaicao/wenkaicao/pub_and_sub/devel/include/**"
+        "/home/wenkaicao/wenkaicao/pub_and_sub/devel/include/**",
+        "/home/wenkaicao/wenkaicao/ros_learning/src/api_test/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

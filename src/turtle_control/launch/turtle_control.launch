@@ -1,5 +1,5 @@
-<launch>
-    <node pkg="turtlesim" type="turtlesim_node" name="turtle"/>
+<launch deprecated="废弃，不建议使用">
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true" respawn_delay="3"/>
     <node pkg="turtle_control" type="turtle_control" name="turtle_control"/>
     <node pkg="turtle_control" type="turtle_pose.py" name="turtle_pose" output="screen"/>
 </launch>

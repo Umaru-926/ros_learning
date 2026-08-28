@@ -146,6 +146,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wenkaicao/wenkaicao/ros_learning/build/gtest/cmake_install.cmake")
+  include("/home/wenkaicao/wenkaicao/ros_learning/build/test_metapackage/cmake_install.cmake")
+  include("/home/wenkaicao/wenkaicao/ros_learning/build/api_test/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/param_server/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/pub_and_sub/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/cmake_install.cmake")

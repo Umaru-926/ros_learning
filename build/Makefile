@@ -740,6 +740,19 @@ pub_and_sub_gennodejs/fast:
 .PHONY : pub_and_sub_gennodejs/fast
 
 #=============================================================================
+# Target rules for targets named rename
+
+# Build rule for target.
+rename: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rename
+.PHONY : rename
+
+# fast build rule for target.
+rename/fast:
+	$(MAKE) -f rename_test/CMakeFiles/rename.dir/build.make rename_test/CMakeFiles/rename.dir/build
+.PHONY : rename/fast
+
+#=============================================================================
 # Target rules for targets named client
 
 # Build rule for target.
@@ -1095,6 +1108,7 @@ help:
 	@echo "... pub_and_sub_generate_messages_lisp"
 	@echo "... publisher_node"
 	@echo "... pub_and_sub_gennodejs"
+	@echo "... rename"
 	@echo "... client"
 	@echo "... _ser_and_cli_generate_messages_check_deps_number"
 	@echo "... ser_and_cli_gennodejs"

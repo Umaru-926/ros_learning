@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PATH='/opt/ros/noetic/bin:/home/wenkaicao/.local/bin:/usr/bin:/home/wenkaicao/.npm-global/bin:/home/wenkaicao/.local/bin:/usr/bin:/home/wenkaicao/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wenkaicao/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'
+export PATH='/opt/ros/noetic/bin:/home/wenkaicao/.qoder/entry:/home/wenkaicao/.local/bin:/usr/bin:/home/wenkaicao/.npm-global/bin:/home/wenkaicao/.local/bin:/usr/bin:/home/wenkaicao/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wenkaicao/.qoder/extensions/ms-python.debugpy-2025.14.0-linux-x64/bundled/scripts/noConfigScripts'
 export PWD='/home/wenkaicao/wenkaicao/ros_learning/build'

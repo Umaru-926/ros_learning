@@ -1,2 +1,2 @@
-api_test:param_server:pub_and_sub:ser_and_cli:test_metapackage:turtle_control
+api_test:param_server:pub_and_sub:rename_test:ser_and_cli:test_metapackage:turtle_control
 -DCATKIN_DEVEL_PREFIX=/home/wenkaicao/wenkaicao/ros_learning/devel -DCMAKE_INSTALL_PREFIX=/home/wenkaicao/wenkaicao/ros_learning/install -G Unix Makefiles

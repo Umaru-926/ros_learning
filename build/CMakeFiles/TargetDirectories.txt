@@ -98,6 +98,14 @@
 /home/wenkaicao/wenkaicao/ros_learning/build/pub_and_sub/CMakeFiles/publisher_node.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/pub_and_sub/CMakeFiles/test.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/pub_and_sub/CMakeFiles/pub_and_sub_gennodejs.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/install/strip.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/install/local.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/install.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/list_install_components.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/rebuild_cache.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/edit_cache.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/test.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/rename.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/CMakeFiles/rebuild_cache.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/CMakeFiles/edit_cache.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/CMakeFiles/test.dir

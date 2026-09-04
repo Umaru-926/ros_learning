@@ -1,0 +1,6 @@
+<launch>
+    <arg name="car_height" default="10.5"/>
+    <param name="car_A" value="$(arg car_height)"/>
+    <param name="car_B" value="$(arg car_height)"/>
+    <param name="car_C" value="$(arg car_height)"/>
+</launch>

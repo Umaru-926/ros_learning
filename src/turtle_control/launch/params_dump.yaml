@@ -1,0 +1,27 @@
+name_a: aaa
+name_b: bbb
+name_c: ccc
+param_A: 100
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_m__33273: http://m:33273/
+    host_m__34927: http://m:34927/
+    host_m__35683: http://m:35683/
+    host_m__40265: http://m:40265/
+    host_m__40853: http://m:40853/
+    host_m__41761: http://m:41761/
+rosversion: '1.17.4
+
+  '
+run_id: 6d27aa3c-a410-11f1-9319-4fd5cef69624
+turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  name_a: aaa
+  name_b: bbb
+  name_c: ccc
+  param_B: 200

@@ -1,0 +1,12 @@
+<launch>
+    <group ns="first">
+        <node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true" respawn_delay="3" />
+        <node pkg="turtle_control" type="turtle_control" name="turtle_control"/>
+    </group>
+
+    <group ns="second">
+        <node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true" respawn_delay="3" />
+        <node pkg="turtle_control" type="turtle_control" name="turtle_control"/>
+    </group>
+
+</launch>

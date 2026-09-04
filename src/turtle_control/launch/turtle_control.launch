@@ -1,5 +1,11 @@
 <launch deprecated="废弃，不建议使用">
-    <node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true" respawn_delay="3"/>
+    <!-- <param name="param_A" type="int" value="100" /> -->
+    <rosparam command="load" file="$(find turtle_control)/launch/params.yaml" />
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true" respawn_delay="3">
+        <remap from="/turtle1/cmd_vel" to="cmd_vel" />
+        <!-- <param name="param_B" type="int" value="200" /> -->
+        <rosparam command="load" file="$(find turtle_control)/launch/params.yaml" />
+    </node>
     <node pkg="turtle_control" type="turtle_control" name="turtle_control"/>
     <node pkg="turtle_control" type="turtle_pose.py" name="turtle_pose" output="screen"/>
 </launch>

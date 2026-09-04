@@ -1,0 +1,3 @@
+<launch deprecated="废弃，不建议使用">
+    <include file="$(find turtle_control)/launch/turtle_control.launch" />
+</launch>

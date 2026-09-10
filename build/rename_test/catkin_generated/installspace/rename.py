@@ -7,9 +7,9 @@ def rename():
     # 全局
     pub = rospy.Publisher("/chatter", String, queue_size=10)
     # 相对
-    pub = rospy.Publisher("chatter", String, queue_size=10)
+    # pub = rospy.Publisher("chatter", String, queue_size=10)
     # 私有
-    pub = rospy.Publisher("~chatter", String, queue_size=10)
+    # pub = rospy.Publisher("~chatter", String, queue_size=10)
 
     while not rospy.is_shutdown():
         pass

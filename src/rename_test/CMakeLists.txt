@@ -135,6 +135,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/rename_test_node.cpp)
 add_executable(rename src/rename.cpp)
+add_executable(rename_param src/rename_param.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -153,6 +154,9 @@ add_executable(rename src/rename.cpp)
 target_link_libraries(rename
   ${catkin_LIBRARIES}
 )
+target_link_libraries(rename_param
+  ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############
@@ -168,6 +172,10 @@ target_link_libraries(rename
 # )
 catkin_install_python(PROGRAMS
   scripts/rename.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS
+  scripts/rename_param.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

@@ -105,6 +105,7 @@
 /home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/rebuild_cache.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/edit_cache.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/test.dir
+/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/rename_param.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/rename_test/CMakeFiles/rename.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/CMakeFiles/rebuild_cache.dir
 /home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/CMakeFiles/edit_cache.dir

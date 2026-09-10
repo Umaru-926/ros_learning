@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+rename_test/CMakeFiles/rename_param.dir/rule:
+	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 rename_test/CMakeFiles/rename_param.dir/rule
+.PHONY : rename_test/CMakeFiles/rename_param.dir/rule
+
+# Convenience name for target.
+rename_param: rename_test/CMakeFiles/rename_param.dir/rule
+
+.PHONY : rename_param
+
+# fast build rule for target.
+rename_param/fast:
+	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f rename_test/CMakeFiles/rename_param.dir/build.make rename_test/CMakeFiles/rename_param.dir/build
+.PHONY : rename_param/fast
+
+# Convenience name for target.
 rename_test/CMakeFiles/rename.dir/rule:
 	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f CMakeFiles/Makefile2 rename_test/CMakeFiles/rename.dir/rule
 .PHONY : rename_test/CMakeFiles/rename.dir/rule
@@ -209,6 +224,33 @@ src/rename.cpp.s:
 	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f rename_test/CMakeFiles/rename.dir/build.make rename_test/CMakeFiles/rename.dir/src/rename.cpp.s
 .PHONY : src/rename.cpp.s
 
+src/rename_param.o: src/rename_param.cpp.o
+
+.PHONY : src/rename_param.o
+
+# target to build an object file
+src/rename_param.cpp.o:
+	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f rename_test/CMakeFiles/rename_param.dir/build.make rename_test/CMakeFiles/rename_param.dir/src/rename_param.cpp.o
+.PHONY : src/rename_param.cpp.o
+
+src/rename_param.i: src/rename_param.cpp.i
+
+.PHONY : src/rename_param.i
+
+# target to preprocess a source file
+src/rename_param.cpp.i:
+	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f rename_test/CMakeFiles/rename_param.dir/build.make rename_test/CMakeFiles/rename_param.dir/src/rename_param.cpp.i
+.PHONY : src/rename_param.cpp.i
+
+src/rename_param.s: src/rename_param.cpp.s
+
+.PHONY : src/rename_param.s
+
+# target to generate assembly for a file
+src/rename_param.cpp.s:
+	cd /home/wenkaicao/wenkaicao/ros_learning/build && $(MAKE) -f rename_test/CMakeFiles/rename_param.dir/build.make rename_test/CMakeFiles/rename_param.dir/src/rename_param.cpp.s
+.PHONY : src/rename_param.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,10 +264,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... rename_param"
 	@echo "... rename"
 	@echo "... src/rename.o"
 	@echo "... src/rename.i"
 	@echo "... src/rename.s"
+	@echo "... src/rename_param.o"
+	@echo "... src/rename_param.i"
+	@echo "... src/rename_param.s"
 .PHONY : help
 
 

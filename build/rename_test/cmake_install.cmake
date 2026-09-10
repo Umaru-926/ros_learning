@@ -56,3 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rename_test" TYPE PROGRAM FILES "/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/catkin_generated/installspace/rename.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rename_test" TYPE PROGRAM FILES "/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/catkin_generated/installspace/rename_param.py")
+endif()
+

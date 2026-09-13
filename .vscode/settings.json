@@ -9,6 +9,7 @@
     ],
     "files.associations": {
         "*.launch": "xml"
-}
+},
+"cmake.sourceDirectory": "/home/wenkaicao/wenkaicao/ros_learning/src"
     
 }

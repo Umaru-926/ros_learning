@@ -152,6 +152,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/wenkaicao/wenkaicao/ros_learning/build/pub_and_sub/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/rename_test/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/ser_and_cli/cmake_install.cmake")
+  include("/home/wenkaicao/wenkaicao/ros_learning/build/tf_pratice/cmake_install.cmake")
   include("/home/wenkaicao/wenkaicao/ros_learning/build/turtle_control/cmake_install.cmake")
 
 endif()

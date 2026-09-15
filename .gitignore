@@ -6,7 +6,6 @@ logs/
 *.log
 
 # ROS 运行时生成的日志和缓存
-*.log
 *.bag
 *.pcd
 .catkin_workspace

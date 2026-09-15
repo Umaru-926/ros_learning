@@ -1,0 +1,33 @@
+# ===== catkin 工作空间构建产物（可通过 catkin_make 重新生成） =====
+/build/
+/devel/
+/install/
+logs/
+*.log
+
+# ROS 运行时生成的日志和缓存
+*.log
+*.bag
+*.pcd
+.catkin_workspace
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== C/C++ 编译中间产物 =====
+*.o
+
+# ===== 编辑器 =====
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== VSCode（可选：如不想提交本机 IDE 配置，取消下一行注释） =====
+# .vscode/

@@ -1,8 +1,0 @@
-prefix=/home/wenkaicao/wenkaicao/ros_learning/devel
-
-Name: tf_pratice
-Description: Description of tf_pratice
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
